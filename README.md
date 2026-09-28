@@ -7,10 +7,15 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-29: fixes the Forgot Password screen showing "Resetting…"
-before you'd touched it, and "Sending…" stuck after tapping back. Same
-signing certificate as the previous build, so installing over it works
-without uninstalling first.
+Updated 2026-09-29: placeholder text in the Login, Register, and Reset
+Password fields is now consistently muted grey, matching Login's fields
+instead of the solid-looking default the other two had. Same signing
+certificate as the previous build, so installing over it works without
+uninstalling first.
+
+Previous update (also 2026-09-29): fixed the Forgot Password screen
+showing "Resetting…" before you'd touched it, and "Sending…" stuck
+after tapping back.
 
 On a phone, tap the link above, then tap **Download**. Open the file when it
 finishes and Android will ask to install it.
@@ -39,9 +44,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 21,402,825 bytes |
-| SHA-256 | `a7f96f7aa0c4aecebb113d658db48f58413b1cc1013cd7c4ad15b88662db9599` |
+| SHA-256 | `d57fc9f1240eea05fce0f587eba4d1b6afbb3e11f73bbb9cc288fdc21f267193` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@1423e83` |
+| Source commit | `KalingApp-Prototype@b314944` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
