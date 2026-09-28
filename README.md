@@ -7,12 +7,12 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-29: the Register screen's back arrow (and the system
-back button/gesture) now asks "Leave account creation?" before exiting,
-so a misclick can't silently wipe out a name/email/password you'd
-already typed. Choosing to leave clears the form; choosing to stay
-leaves everything exactly as it was. Same signing certificate as the
-previous build, so installing over it works without uninstalling first.
+Updated 2026-09-29: Transaction History now shows the millilitres
+donated/received on each entry; the appointment scheduler no longer lets
+you pick a date before today (a timezone bug, only visible before 8 AM
+Philippine time); and a same-day booking now grays out time slots that
+have already passed. Same signing certificate as the previous build, so
+installing over it works without uninstalling first.
 
 Previous update (also 2026-09-29): fixed the Forgot Password screen
 showing "Resetting…" before you'd touched it, and "Sending…" stuck
@@ -45,9 +45,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 21,403,121 bytes |
-| SHA-256 | `6803dba8bb4e4dc312fb09cb48801f8ac36dfe9b06a38c98e8d5e6a45e5dfc6f` |
+| SHA-256 | `7295f426f9f721c3c286fb424eaec5dbbb68daa2103b7b01526297615822bcaf` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@5dbd6a5` |
+| Source commit | `KalingApp-Prototype@7ed6648` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
