@@ -7,11 +7,12 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-29: placeholder text in the Login, Register, and Reset
-Password fields is now consistently muted grey, matching Login's fields
-instead of the solid-looking default the other two had. Same signing
-certificate as the previous build, so installing over it works without
-uninstalling first.
+Updated 2026-09-29: the Register screen's back arrow (and the system
+back button/gesture) now asks "Leave account creation?" before exiting,
+so a misclick can't silently wipe out a name/email/password you'd
+already typed. Choosing to leave clears the form; choosing to stay
+leaves everything exactly as it was. Same signing certificate as the
+previous build, so installing over it works without uninstalling first.
 
 Previous update (also 2026-09-29): fixed the Forgot Password screen
 showing "Resetting…" before you'd touched it, and "Sending…" stuck
@@ -43,10 +44,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,402,825 bytes |
-| SHA-256 | `d57fc9f1240eea05fce0f587eba4d1b6afbb3e11f73bbb9cc288fdc21f267193` |
+| Size | 21,403,121 bytes |
+| SHA-256 | `6803dba8bb4e4dc312fb09cb48801f8ac36dfe9b06a38c98e8d5e6a45e5dfc6f` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@b314944` |
+| Source commit | `KalingApp-Prototype@5dbd6a5` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
