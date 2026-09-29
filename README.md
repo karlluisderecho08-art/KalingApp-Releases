@@ -7,11 +7,15 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-29: the app now points at the new Singapore backend
-(backend-kalingapp.onrender.com, co-located with the Supabase database)
-instead of the old Oregon one. No visible feature change -- same signing
-certificate as the previous build, so installing over it works without
-uninstalling first.
+Updated 2026-09-30: resubmitting a donor request after a decline no
+longer forces a blank questionnaire -- her last answers are pre-filled,
+with a notice to review them (and re-attach her serology photo) before
+submitting. Same signing certificate as the previous build, so
+installing over it works without uninstalling first.
+
+Previous update (2026-09-29): the app now points at the new Singapore
+backend (backend-kalingapp.onrender.com, co-located with the Supabase
+database) instead of the old Oregon one.
 
 Previous update (also 2026-09-29): Transaction History now shows the
 millilitres donated/received on each entry; the appointment scheduler no
@@ -49,10 +53,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,403,116 bytes |
-| SHA-256 | `347fb48b366bf068a1216879d3d98159fcf3b4a3906a4083b0b79efc57e46ae5` |
+| Size | 21,404,247 bytes |
+| SHA-256 | `6c492ef753c855d1b9d36faddf68fd122ea191df3f14dd2d54abfd6834475e14` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@e5f972c` |
+| Source commit | `KalingApp-Prototype@2de8037` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
