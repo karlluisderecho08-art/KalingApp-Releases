@@ -7,11 +7,19 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-30: resubmitting a donor request after a decline no
-longer forces a blank questionnaire -- her last answers are pre-filled,
-with a notice to review them (and re-attach her serology photo) before
-submitting. Same signing certificate as the previous build, so
-installing over it works without uninstalling first.
+Updated 2026-09-30 (fix): the previous fix wired the questionnaire
+pre-fill into the wrong entry point. "Submit a New Request" on a
+declined booking was skipping the questionnaire screen entirely --
+resubmitting created a new request with no questionnaire attached at
+all, not just a blank one. Fixed for real this time: resubmitting a
+donor request now goes back through the (pre-filled) questionnaire
+screen before scheduling. Same signing certificate as the previous
+build, so installing over it works without uninstalling first.
+
+Previous update (2026-09-30): resubmitting a donor request after a
+decline no longer forces a blank questionnaire -- her last answers are
+pre-filled, with a notice to review them (and re-attach her serology
+photo) before submitting.
 
 Previous update (2026-09-29): the app now points at the new Singapore
 backend (backend-kalingapp.onrender.com, co-located with the Supabase
@@ -53,10 +61,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,247 bytes |
-| SHA-256 | `6c492ef753c855d1b9d36faddf68fd122ea191df3f14dd2d54abfd6834475e14` |
+| Size | 21,404,234 bytes |
+| SHA-256 | `338c5377229e4e491ef1b56e035612904e3f1a536c7b2c4341e555414784f8a1` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@2de8037` |
+| Source commit | `KalingApp-Prototype@dda56cf` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
