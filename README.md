@@ -7,7 +7,18 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-09-30 (fix): the previous fix wired the questionnaire
+Updated 2026-10-01: discarding the donor questionnaire (the "Leave
+without saving?" prompt) now actually stays discarded. Previously, if
+you'd ever submitted a real questionnaire before, reopening the form
+right after discarding would quietly refill it with that old
+submission again — the discard itself worked, but the very next open
+silently undid it, which looked exactly like Discard doing nothing.
+Also: the article detail screen no longer shows a star rating next to
+the category tag (it never did anything), and the spacing above that
+tag was tightened so it no longer looks like it's sitting on its own
+detached line. Same signing certificate as the previous build.
+
+Previous update (2026-09-30, fix): the previous fix wired the questionnaire
 pre-fill into the wrong entry point. "Submit a New Request" on a
 declined booking was skipping the questionnaire screen entirely --
 resubmitting created a new request with no questionnaire attached at
@@ -61,10 +72,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,234 bytes |
-| SHA-256 | `338c5377229e4e491ef1b56e035612904e3f1a536c7b2c4341e555414784f8a1` |
+| Size | 21,404,320 bytes |
+| SHA-256 | `c47272f5b5ff37d0dfd79e73d278da25eaf18be809a76b6b2158d3f245e4356` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@dda56cf` |
+| Source commit | `KalingApp-Prototype@03255d2` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
