@@ -7,7 +7,15 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-01: discarding the donor questionnaire (the "Leave
+Updated 2026-10-01 (2): the Request Milk form's requirements checklist
+(baby's name, clinic notes, prescription proof, cooler, medical
+abstract) is now actually sent when you submit a recipient request.
+Previously the form collected and validated all of it on-screen, then
+silently threw it away the moment the booking was created — the
+facility never received any of it, for any recipient request, ever.
+Same signing certificate as the previous build.
+
+Previous update (2026-10-01): discarding the donor questionnaire (the "Leave
 without saving?" prompt) now actually stays discarded. Previously, if
 you'd ever submitted a real questionnaire before, reopening the form
 right after discarding would quietly refill it with that old
@@ -72,10 +80,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,320 bytes |
-| SHA-256 | `c47272f5b5ff37d0dfd79e73d278da25eaf18be809a76b6b2158d3f245e4356` |
+| Size | 21,404,358 bytes |
+| SHA-256 | `eee200569d479e964a6eaf5d16ef6a7f2cfc428d4f4eb402c0aed89a6acf2e9f` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@03255d2` |
+| Source commit | `KalingApp-Prototype@ac42e95` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
