@@ -7,7 +7,17 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-01 (2): the Request Milk form's requirements checklist
+Updated 2026-10-02: the Request Milk form now asks "Leave without
+saving?" when you tap back after filling anything in, the same way the
+donor questionnaire does, instead of leaving straight away. The phone's
+own back button/gesture goes through the same prompt (it used to close
+the app from that screen). Also: the Contact Directory now shows each
+organization's email, tappable to open your mail app, and lists
+Quezon City General Hospital and St. Luke's Medical Center - Quezon
+City alongside Fabella and Arugaan. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-01, 2): the Request Milk form's requirements checklist
 (baby's name, clinic notes, prescription proof, cooler, medical
 abstract) is now actually sent when you submit a recipient request.
 Previously the form collected and validated all of it on-screen, then
@@ -80,10 +90,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,358 bytes |
-| SHA-256 | `eee200569d479e964a6eaf5d16ef6a7f2cfc428d4f4eb402c0aed89a6acf2e9f` |
+| Size | 21,404,770 bytes |
+| SHA-256 | `c9a9ca8b54d5127a889628dfb3fd2e628a11469d84118fcc7abfee3209a889d0` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@ac42e95` |
+| Source commit | `KalingApp-Prototype@f50ad3d` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
