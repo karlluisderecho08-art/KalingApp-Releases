@@ -7,7 +7,13 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-02: the Request Milk form now asks "Leave without
+Updated 2026-10-06: the phone's back button and back gesture no longer close
+the whole app. They go back one screen, and the gesture slides the screen as
+you drag. Pull down to refresh now also works on Knowledge Hub, Saved
+Articles, Notifications, Transaction History, Booking Status and the Contact
+Directory. Same signing certificate as the previous build.
+
+Previous update (2026-10-02): the Request Milk form now asks "Leave without
 saving?" when you tap back after filling anything in, the same way the
 donor questionnaire does, instead of leaving straight away. The phone's
 own back button/gesture goes through the same prompt (it used to close
@@ -90,10 +96,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,770 bytes |
-| SHA-256 | `c9a9ca8b54d5127a889628dfb3fd2e628a11469d84118fcc7abfee3209a889d0` |
+| Size | 21,406,130 bytes |
+| SHA-256 | `5890118fe9aa45426e5df77247542e5e3106128f6d9c62f62cbf9381348410ea` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@f50ad3d` |
+| Source commit | `KalingApp-Prototype@1cdb32e` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
