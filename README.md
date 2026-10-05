@@ -7,7 +7,11 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-06: the phone's back button and back gesture no longer close
+Updated 2026-10-06 (2): the app's descriptions and hints are now one short,
+plain sentence each (Milk Bank intro, onboarding, the guided tour, FAQ and
+Help). Same signing certificate as the previous build.
+
+Previous update (2026-10-06): the phone's back button and back gesture no longer close
 the whole app. They go back one screen, and the gesture slides the screen as
 you drag. Pull down to refresh now also works on Knowledge Hub, Saved
 Articles, Notifications, Transaction History, Booking Status and the Contact
@@ -96,10 +100,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,406,130 bytes |
-| SHA-256 | `5890118fe9aa45426e5df77247542e5e3106128f6d9c62f62cbf9381348410ea` |
+| Size | 21,404,568 bytes |
+| SHA-256 | `130f5a042490bc4da27ae61280e6c551f39ae8919db2eedb9d2b85b25998d1a1` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@1cdb32e` |
+| Source commit | `KalingApp-Prototype@37b4101` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
