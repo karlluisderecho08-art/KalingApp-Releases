@@ -7,7 +7,12 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-07: the appointment scheduler no longer offers a 5:00 PM slot
+Updated 2026-10-07 (2): the app now looks the same on tablets as on phones. The
+layout stays phone-width and centred instead of stretching edge to edge, and
+the onboarding card is properly centred. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-07): the appointment scheduler no longer offers a 5:00 PM slot
 (last slot is now 4:00 PM), for both donors and recipients. Same signing
 certificate as the previous build.
 
@@ -105,9 +110,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 21,404,568 bytes |
-| SHA-256 | `9854d7b8a94030ff2121684c636d2c5ce641d99eaab637fa1267b2d981d28463` |
+| SHA-256 | `a56d00a7bcaabff4783668050f1c282a40f9e744650a3b560a1088e013827e82` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@167c903` |
+| Source commit | `KalingApp-Prototype@f7f3f61` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
