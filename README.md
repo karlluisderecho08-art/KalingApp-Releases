@@ -7,7 +7,11 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
 
-Updated 2026-10-06 (2): the app's descriptions and hints are now one short,
+Updated 2026-10-07: the appointment scheduler no longer offers a 5:00 PM slot
+(last slot is now 4:00 PM), for both donors and recipients. Same signing
+certificate as the previous build.
+
+Previous update (2026-10-06, 2): the app's descriptions and hints are now one short,
 plain sentence each (Milk Bank intro, onboarding, the guided tour, FAQ and
 Help). Same signing certificate as the previous build.
 
@@ -101,9 +105,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 21,404,568 bytes |
-| SHA-256 | `130f5a042490bc4da27ae61280e6c551f39ae8919db2eedb9d2b85b25998d1a1` |
+| SHA-256 | `9854d7b8a94030ff2121684c636d2c5ce641d99eaab637fa1267b2d981d28463` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@37b4101` |
+| Source commit | `KalingApp-Prototype@167c903` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
