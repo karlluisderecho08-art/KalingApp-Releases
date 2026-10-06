@@ -7,7 +7,14 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-07 (3): every booking now starts by asking whether to update your
+Updated 2026-10-07 (4): discarding the donor questionnaire now sticks. The form
+fills itself in from your last submission; after you confirmed "discard" it
+used to stay blank for only the next open, then your old answers came back.
+They now stay gone, including after closing the app. Resubmitting a declined
+request still brings your answers back. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-07, 3): every booking now starts by asking whether to update your
 location, so you always know it is being brought up to where you are now. If it
 can't be read (permission, location off, no signal), the app tells you it will
 use your saved location instead and lets you continue. Same signing
@@ -115,10 +122,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,874,467 bytes |
-| SHA-256 | `f5c66ee28920b8c401536876a011a0c04f810924bc6cd7c2be1e5aab8b333c6b` |
+| Size | 21,879,335 bytes |
+| SHA-256 | `c33fbfdba163aabe74927a15f8d1ba08010adf6731115db7f30dbf92733d7241` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@6ef870a` |
+| Source commit | `KalingApp-Prototype@7516521` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
