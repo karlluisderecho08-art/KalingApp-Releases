@@ -5,9 +5,16 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.4 MiB
+**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-07 (2): the app now looks the same on tablets as on phones. The
+Updated 2026-10-07 (3): each time you start a booking, the app now quietly
+re-checks where you are (if location is allowed on your phone) so the nearest
+facility is worked out from your current position, not the first place you
+shared it. Nothing new is asked, and if your location can't be read the booking
+carries on with the one already saved. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-07, 2): the app now looks the same on tablets as on phones. The
 layout stays phone-width and centred instead of stretching edge to edge, and
 the onboarding card is properly centred. Same signing certificate as the
 previous build.
@@ -109,10 +116,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,404,568 bytes |
-| SHA-256 | `a56d00a7bcaabff4783668050f1c282a40f9e744650a3b560a1088e013827e82` |
+| Size | 21,874,370 bytes |
+| SHA-256 | `5b097ab885a32fed12dfc8c19cdb3d8265e6738cd6fb7422915ecca3591f0db8` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@f7f3f61` |
+| Source commit | `KalingApp-Prototype@ecf9cf2` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
