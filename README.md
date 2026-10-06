@@ -7,7 +7,11 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-07 (4): discarding the donor questionnaire now sticks. The form
+Updated 2026-10-07 (5): the home screen no longer shows the "Care Track • N Weeks
+Old" line under the greeting. Nothing else on the screen changed. Same signing
+certificate as the previous build.
+
+Previous update (2026-10-07, 4): discarding the donor questionnaire now sticks. The form
 fills itself in from your last submission; after you confirmed "discard" it
 used to stay blank for only the next open, then your old answers came back.
 They now stay gone, including after closing the app. Resubmitting a declined
@@ -122,10 +126,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,879,335 bytes |
-| SHA-256 | `c33fbfdba163aabe74927a15f8d1ba08010adf6731115db7f30dbf92733d7241` |
+| Size | 21,878,986 bytes |
+| SHA-256 | `3e3278cd2a433027fb93dc6c58fe0569f6f9710426d12e07625ff35bb7216817` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@7516521` |
+| Source commit | `KalingApp-Prototype@f52ca42` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
