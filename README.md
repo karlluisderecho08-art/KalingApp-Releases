@@ -7,7 +7,13 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-07 (5): the home screen no longer shows the "Care Track • N Weeks
+Updated 2026-10-07 (6): "Your Facility" now always appears on the scheduler and the
+booking tracker. It could be missing for a whole session if the app was opened while
+the server was still waking up; the facility chosen for you is now kept as soon as
+the server returns it, and pulling down to refresh reloads it. Same signing
+certificate as the previous build.
+
+Previous update (2026-10-07, 5): the home screen no longer shows the "Care Track • N Weeks
 Old" line under the greeting. Nothing else on the screen changed. Same signing
 certificate as the previous build.
 
@@ -126,10 +132,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,878,986 bytes |
-| SHA-256 | `3e3278cd2a433027fb93dc6c58fe0569f6f9710426d12e07625ff35bb7216817` |
+| Size | 21,882,098 bytes |
+| SHA-256 | `8016eea424fa58c52b367b1bf5415ca2e1fb940dac91577de18e96ab83a4ddc9` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@f52ca42` |
+| Source commit | `KalingApp-Prototype@7ded454` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
