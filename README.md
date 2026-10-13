@@ -5,9 +5,15 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
+**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 21.0 MiB
 
-Updated 2026-10-13 (2): a new look. Screens now have a frosted-glass style on a
+Updated 2026-10-13 (3): the glass look is now clear glass. Cards are see-through
+panes with a bright edge and a soft shadow, and the light on them moves as you
+tilt your phone. The colours behind the glass drift slowly too. The bottom menu
+is a floating glass capsule. The pink is back to the original shade. Same
+signing certificate as the previous build.
+
+Previous update (2026-10-13, 2): a new look. Screens now have a frosted-glass style on a
 soft pink, gold and lilac background, with a deeper pink that is easier to read.
 While a page is loading you now see its outline shimmering in place instead of a
 blank screen or a "nothing here" message. Same signing certificate as the
@@ -149,10 +155,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,966,634 bytes |
-| SHA-256 | `946167cd21766b5fee503a72b0345cb34c793b269fe5f19eb1b774b0083a4f16` |
+| Size | 21,977,655 bytes |
+| SHA-256 | `6d7077afa9e90f5786ba849bf5841b95300d9604b3173415cc0d1df3b669a9dd` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@9504c4a` |
+| Source commit | `KalingApp-Prototype@78c6b73` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
