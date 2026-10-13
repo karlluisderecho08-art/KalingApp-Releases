@@ -7,7 +7,18 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-07 (6): "Your Facility" now always appears on the scheduler and the
+Updated 2026-10-13: saved articles now stay saved. They are stored on your
+account, so they are still there after you sign out and back in, reinstall, or
+switch phones. Sign-in is safer: after 3 wrong passwords the login screen
+suggests resetting your password, and after 5 the account is locked for longer
+and longer, with a countdown and who to contact. A strip at the top says "No
+internet connection" while you are offline and "Back online" when it returns.
+The sign-up and password-reset codes are entered one digit per box. Donate Milk
+and Request Pasteurized Milk now show a short reminder of what you will need
+before the form opens. The Knowledge Hub shows Educational Videos & Guides added
+by the admin. Same signing certificate as the previous build.
+
+Previous update (2026-10-07, 6): "Your Facility" now always appears on the scheduler and the
 booking tracker. It could be missing for a whole session if the app was opened while
 the server was still waking up; the facility chosen for you is now kept as soon as
 the server returns it, and pulling down to refresh reloads it. Same signing
@@ -132,10 +143,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,882,098 bytes |
-| SHA-256 | `8016eea424fa58c52b367b1bf5415ca2e1fb940dac91577de18e96ab83a4ddc9` |
+| Size | 21,943,009 bytes |
+| SHA-256 | `6db8e086cfacce7f3debd7868b158fdd0ed129ec5fc48f6151c06a88b98bc2ac` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@7ded454` |
+| Source commit | `KalingApp-Prototype@4c0956d` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
