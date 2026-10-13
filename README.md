@@ -7,7 +7,13 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 20.9 MiB
 
-Updated 2026-10-13: saved articles now stay saved. They are stored on your
+Updated 2026-10-13 (2): a new look. Screens now have a frosted-glass style on a
+soft pink, gold and lilac background, with a deeper pink that is easier to read.
+While a page is loading you now see its outline shimmering in place instead of a
+blank screen or a "nothing here" message. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-13): saved articles now stay saved. They are stored on your
 account, so they are still there after you sign out and back in, reinstall, or
 switch phones. Sign-in is safer: after 3 wrong passwords the login screen
 suggests resetting your password, and after 5 the account is locked for longer
@@ -143,10 +149,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,943,009 bytes |
-| SHA-256 | `6db8e086cfacce7f3debd7868b158fdd0ed129ec5fc48f6151c06a88b98bc2ac` |
+| Size | 21,966,634 bytes |
+| SHA-256 | `946167cd21766b5fee503a72b0345cb34c793b269fe5f19eb1b774b0083a4f16` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@4c0956d` |
+| Source commit | `KalingApp-Prototype@9504c4a` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
