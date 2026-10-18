@@ -7,7 +7,13 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 22.7 MiB
 
-Updated 2026-10-19 (4): the bottle note on the milk amount is now one short
+Updated 2026-10-19 (5): when booking a milk donation, a time slot that is
+already full at your milk bank is greyed out and marked "Full" (some milk banks
+limit how many donors can come at the same hour, for their laboratory). Days on
+which every time is full can't be picked. Requesting milk is unchanged. Same
+signing certificate as the previous build.
+
+Previous update (2026-10-19, 4): the bottle note on the milk amount is now one short
 line, and a milk bank that allows a single bottle says "1 bottle per request"
 instead of "1 to 1 bottles". Same signing certificate as the previous build.
 
@@ -188,9 +194,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 23,789,397 bytes |
-| SHA-256 | `af5f209ee1740974a4952de48c9ebd7adbf25d648491223bd1443ea83039c982` |
+| SHA-256 | `2d039167abbb2eefb2a7ce259f476533d869789e7cf5fd5945fe557ee28b5a52` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@b3017f2` |
+| Source commit | `KalingApp-Prototype@d7f7256` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
