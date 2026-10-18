@@ -5,9 +5,22 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 21.0 MiB
+**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 22.7 MiB
 
-Updated 2026-10-13 (3): the glass look is now clear glass. Cards are see-through
+Updated 2026-10-19: the glass cards are more see-through, closer to clear
+glass, and the colours behind them now visibly flow around the screen (they
+hold still if "Remove animations" is turned on in your phone's accessibility
+settings). Pink and gold headings and labels are a deeper shade so they are
+easy to read on the glass. The bottom menu is rebuilt: the highlight on the
+selected tab no longer spills past the menu's rounded ends, and "Knowledge"
+stays on one line, the same size as the other labels. On the home screen the
+streak card's "Active Postpartum Journey" label sits above the title instead
+of in its own box, the icon squares are see-through, and a 1-day streak says
+"1 day". Text fields no longer put a box around their label, and Kali's
+answers now have a "Read in Knowledge Hub" button under each article Kali
+cites. Same signing certificate as the previous build.
+
+Previous update (2026-10-13, 3): the glass look is now clear glass. Cards are see-through
 panes with a bright edge and a soft shadow, and the light on them moves as you
 tilt your phone. The colours behind the glass drift slowly too. The bottom menu
 is a floating glass capsule. The pink is back to the original shade. Same
@@ -155,10 +168,10 @@ does not match.
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,977,655 bytes |
-| SHA-256 | `6d7077afa9e90f5786ba849bf5841b95300d9604b3173415cc0d1df3b669a9dd` |
+| Size | 23,789,397 bytes |
+| SHA-256 | `8c8384e40b8386ca6cd250fb14ae49342cccc9473afa640a8bde8a545bab2af8` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@78c6b73` |
+| Source commit | `KalingApp-Prototype@f0041e1` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
