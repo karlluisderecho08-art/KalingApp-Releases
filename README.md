@@ -7,7 +7,14 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 22.7 MiB
 
-Updated 2026-10-19: the glass cards are more see-through, closer to clear
+Updated 2026-10-19 (2): tapping Donate Milk or Request Pasteurized Milk now
+shows, after the reminder, a "What happens next" window with each step of the
+Booking Tracker and one line on what happens in it, so the tracker is already
+familiar once you submit. The app walkthrough is readable again: its cards
+had turned see-through over the dimmed screen. Same signing certificate as the
+previous build.
+
+Previous update (2026-10-19): the glass cards are more see-through, closer to clear
 glass, and the colours behind them now visibly flow around the screen (they
 hold still if "Remove animations" is turned on in your phone's accessibility
 settings). Pink and gold headings and labels are a deeper shade so they are
@@ -169,9 +176,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 23,789,397 bytes |
-| SHA-256 | `8c8384e40b8386ca6cd250fb14ae49342cccc9473afa640a8bde8a545bab2af8` |
+| SHA-256 | `47a464afe9ee66b44749490703213df83c72d305fddd9c3abd2138a6ca01d04b` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@f0041e1` |
+| Source commit | `KalingApp-Prototype@c32198c` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
