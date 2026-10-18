@@ -7,7 +7,15 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 22.7 MiB
 
-Updated 2026-10-19 (2): tapping Donate Milk or Request Pasteurized Milk now
+Updated 2026-10-19 (3): when requesting pasteurized milk, you now say how much
+you need after you are matched with a milk bank, on the scheduling screen,
+within that milk bank's own limits. If the milk bank dispenses milk in bottles,
+you can ask in bottles or in mL (Philippine milk bank bottles are a standard
+100 mL, so 1 bottle = 100 mL). Booking Status shows your request the way you
+made it, e.g. "3 bottles (300 mL)". Same signing certificate as the previous
+build.
+
+Previous update (2026-10-19, 2): tapping Donate Milk or Request Pasteurized Milk now
 shows, after the reminder, a "What happens next" window with each step of the
 Booking Tracker and one line on what happens in it, so the tracker is already
 familiar once you submit. The app walkthrough is readable again: its cards
@@ -176,9 +184,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 23,789,397 bytes |
-| SHA-256 | `47a464afe9ee66b44749490703213df83c72d305fddd9c3abd2138a6ca01d04b` |
+| SHA-256 | `d63b81838ef82f8cb4a05e51d212d011413e88784a4115cb0f3f23e0c81d1992` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@c32198c` |
+| Source commit | `KalingApp-Prototype@5619090` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
