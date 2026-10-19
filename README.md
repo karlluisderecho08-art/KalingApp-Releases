@@ -5,9 +5,18 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.0-debug.apk](kalingapp-v1.0-debug.apk)** — 22.7 MiB
+**[kalingapp-v1.1.0-debug.apk](kalingapp-v1.1.0-debug.apk)** — 20.7 MiB · version 1.1.0
 
-Updated 2026-10-19 (5): when booking a milk donation, a time slot that is
+Updated 2026-10-20, version 1.1.0 — **please install this version**: older
+versions can no longer book or chat, and they will show a message saying so.
+From this version on, the app tells you when a newer one is required and opens
+this page for you. New in this version: you can delete your account yourself
+(Settings, then Delete my account; any open booking is cancelled and the milk
+bank is told). When you answer Yes to having a recent serology test, the photo
+of the result is now required. The installed version is shown in Settings.
+Same signing certificate as the previous build, so it installs over it.
+
+Previous update (2026-10-19, 5): when booking a milk donation, a time slot that is
 already full at your milk bank is greyed out and marked "Full" (some milk banks
 limit how many donors can come at the same hour, for their laboratory). Days on
 which every time is full can't be picked. Requesting milk is unchanged. Same
@@ -189,20 +198,20 @@ does not match.
 
 | | |
 |---|---|
-| Version | 1.0 (versionCode 1) |
+| Version | 1.1.0 (versionCode 2) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 23,789,397 bytes |
-| SHA-256 | `2d039167abbb2eefb2a7ce259f476533d869789e7cf5fd5945fe557ee28b5a52` |
+| Size | 21,656,714 bytes |
+| SHA-256 | `0ddd0928d2412291b52ad3297b8bb482df8b08ac755efea1c2e15aa789309c9e` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@d7f7256` |
+| Source commit | `KalingApp-Prototype@9dbda8e` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.0-debug.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.0-debug.apk SHA256   # Windows
+sha256sum kalingapp-v1.1.0-debug.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.1.0-debug.apk SHA256   # Windows
 ```
 
 ## Notes
