@@ -5,11 +5,18 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.2.0-debug.apk](kalingapp-v1.2.0-debug.apk)** — 20.6 MiB · version 1.2.0
+**[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.6 MiB · version 1.2.1
 
-Updated 2026-10-20, version 1.2.0 — **please install this version**: older
+Updated 2026-10-20, version 1.2.1: typing is smoother. When the keyboard opens,
+the top of the screen now stays where it is and only the part below it moves up,
+so you never lose the title or the back button while filling in a form. In the
+Kali chat, the newest messages stay just above where you type. Version 1.2.0
+still works; this update is recommended, not required. Same signing certificate
+as the previous build, so it installs over it.
+
+Previous update (2026-10-20, version 1.2.0) — **required**: older
 versions can no longer book or chat, and the app will ask you to update. New in
-this version: Knowledge Hub articles can now have lines centred, right-aligned
+that version: Knowledge Hub articles can now have lines centred, right-aligned
 or justified, the way the admin laid them out. Same signing certificate as the
 previous build, so it installs over it.
 
@@ -204,20 +211,20 @@ does not match.
 
 | | |
 |---|---|
-| Version | 1.2.0 (versionCode 3) |
+| Version | 1.2.1 (versionCode 4) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,573,481 bytes |
-| SHA-256 | `432a684b012073b1e5f83030e69cfaf058b187cb4442520d7fb46814c74f267a` |
+| Size | 21,573,517 bytes |
+| SHA-256 | `81eb7351dd9e6f37eefbfc5f9aba0fbe9acf297b43f52388ce0136f52821f82e` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@18ed76a` |
+| Source commit | `KalingApp-Prototype@b5f684f` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.2.0-debug.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.2.0-debug.apk SHA256   # Windows
+sha256sum kalingapp-v1.2.1-debug.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.2.1-debug.apk SHA256   # Windows
 ```
 
 ## Notes
