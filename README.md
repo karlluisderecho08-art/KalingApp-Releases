@@ -5,10 +5,16 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.1.0-debug.apk](kalingapp-v1.1.0-debug.apk)** — 20.7 MiB · version 1.1.0
+**[kalingapp-v1.2.0-debug.apk](kalingapp-v1.2.0-debug.apk)** — 20.6 MiB · version 1.2.0
 
-Updated 2026-10-20, version 1.1.0 — **please install this version**: older
-versions can no longer book or chat, and they will show a message saying so.
+Updated 2026-10-20, version 1.2.0 — **please install this version**: older
+versions can no longer book or chat, and the app will ask you to update. New in
+this version: Knowledge Hub articles can now have lines centred, right-aligned
+or justified, the way the admin laid them out. Same signing certificate as the
+previous build, so it installs over it.
+
+Previous update (2026-10-20, version 1.1.0): older versions could no longer book
+or chat, and they showed a message saying so.
 From this version on, the app tells you when a newer one is required and opens
 this page for you. New in this version: you can delete your account yourself
 (Settings, then Delete my account; any open booking is cancelled and the milk
@@ -198,20 +204,20 @@ does not match.
 
 | | |
 |---|---|
-| Version | 1.1.0 (versionCode 2) |
+| Version | 1.2.0 (versionCode 3) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,656,714 bytes |
-| SHA-256 | `0ddd0928d2412291b52ad3297b8bb482df8b08ac755efea1c2e15aa789309c9e` |
+| Size | 21,573,481 bytes |
+| SHA-256 | `432a684b012073b1e5f83030e69cfaf058b187cb4442520d7fb46814c74f267a` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@9dbda8e` |
+| Source commit | `KalingApp-Prototype@18ed76a` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.1.0-debug.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.1.0-debug.apk SHA256   # Windows
+sha256sum kalingapp-v1.2.0-debug.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.2.0-debug.apk SHA256   # Windows
 ```
 
 ## Notes
