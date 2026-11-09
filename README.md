@@ -7,12 +7,13 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.6 MiB · version 1.2.1
 
-Updated 2026-10-20, version 1.2.1: typing is smoother. When the keyboard opens,
-the top of the screen now stays where it is and only the part below it moves up,
-so you never lose the title or the back button while filling in a form. In the
-Kali chat, the newest messages stay just above where you type. Version 1.2.0
-still works; this update is recommended, not required. Same signing certificate
-as the previous build, so it installs over it.
+Updated 2026-11-09, version 1.2.1 (rebuilt, same versionCode 4): names only.
+The donor step "Breastmilk Analysis" is now "Breastmilk Collection" in the
+Booking Tracker, and "Verified Pediatric Library" is now "Verified Knowledge
+Page" everywhere, including its badges and empty/loading text. The signed
+certificate is unchanged, so this installs over the previous 1.2.1 build;
+since the version number is the same, install this file manually from this
+page. The facility console and backend show the same new names.
 
 Previous update (2026-10-20, version 1.2.0) — **required**: older
 versions can no longer book or chat, and the app will ask you to update. New in
@@ -216,9 +217,9 @@ does not match.
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 21,573,517 bytes |
-| SHA-256 | `81eb7351dd9e6f37eefbfc5f9aba0fbe9acf297b43f52388ce0136f52821f82e` |
+| SHA-256 | `9b9814c01172fa5c65e06126b606dfb8032e1fc95c5534f1bad94ba7103748d8` |
 | Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@b5f684f` |
+| Source commit | `KalingApp-Prototype@07ba141` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
