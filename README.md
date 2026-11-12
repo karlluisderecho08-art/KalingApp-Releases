@@ -5,9 +5,21 @@ installed on a phone without needing access to the source repository.
 
 ## Download
 
-**[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.6 MiB · version 1.2.1
+**[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.7 MiB · version 1.2.1
 
-Updated 2026-11-09, version 1.2.1 (rebuilt, same versionCode 4): names only.
+Updated 2026-11-12, version 1.2.1 (rebuilt, same versionCode 4): full Tagalog.
+Turning on Tagalog (Settings, or the new English | Tagalog switch on the
+Welcome screen) now changes every screen, not just some, and the choice is
+kept after the app is closed. Messages from the server are in Tagalog too:
+notifications, booking updates and results, error messages, the
+verification and password-reset emails, and Kali's answers. Also new:
+donors choose how their milk reaches the milk bank (pick up, walk-in or
+drop off), and you can chat with your milk bank about your booking from
+Booking Status. Same signing certificate, so this installs over the previous
+1.2.1 build; since the version number is the same, install this file
+manually from this page.
+
+Previous update (2026-11-09, version 1.2.1, rebuilt): names only.
 The donor step "Breastmilk Analysis" is now "Breastmilk Collection" in the
 Booking Tracker, and "Verified Pediatric Library" is now "Verified Knowledge
 Page" everywhere, including its badges and empty/loading text. The signed
