@@ -7,7 +7,16 @@ installed on a phone without needing access to the source repository.
 
 **[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.7 MiB · version 1.2.1
 
-Updated 2026-11-12, version 1.2.1 (rebuilt, same versionCode 4): full Tagalog.
+Updated 2026-11-12 (later the same day), version 1.2.1 (rebuilt, same versionCode 4):
+donors now choose how their milk reaches the milk bank right after picking
+their appointment date and time. For a drop off, the courier's delivery
+link is asked for only on the appointment day, from the appointment hour,
+in Booking Status -- and a notification tells you each step, plus a
+reminder at that hour. The Notifications page header no longer fills the
+screen in Tagalog. Same signing certificate; install this file manually
+over the previous 1.2.1 build.
+
+Earlier update (2026-11-12, version 1.2.1, rebuilt): full Tagalog.
 Turning on Tagalog (Settings, or the new English | Tagalog switch on the
 Welcome screen) now changes every screen, not just some, and the choice is
 kept after the app is closed. Messages from the server are in Tagalog too:
