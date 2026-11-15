@@ -5,18 +5,34 @@ without the Play Store.
 
 ## Download
 
-**[kalingapp-v1.3.0.apk](kalingapp-v1.3.0.apk)** — 14.1 MiB · version 1.3.0
+**[kalingapp-v1.3.1.apk](kalingapp-v1.3.1.apk)** — 14.1 MiB · version 1.3.1
 
-> **Already have KalingApp on your phone? Uninstall it first.**
-> Version 1.3.0 is the first one signed with KalingApp's own release key
-> instead of Android's shared test key, so Android won't install it over an
-> older copy (it says "App not installed"). Nothing is lost: your account,
-> bookings, messages and saved articles are kept online. Uninstall the old
-> app, install this one, and log in again. You only need to do this once.
+> **Have version 1.2.1 or older? Uninstall it first.**
+> Version 1.3.0 was the first one signed with KalingApp's own release key
+> instead of Android's shared test key, so Android won't install this over
+> 1.2.1 or older (it says "App not installed"). Nothing is lost: your
+> account, bookings, messages and saved articles are kept online. Uninstall
+> the old app, install this one, and log in again. If you already have
+> 1.3.0, just install this over it -- no uninstalling needed.
 
-Updated 2026-11-15, version 1.3.0 — **required**: older versions can no
-longer book or chat, and the app will ask you to update. A security and
-privacy update:
+Updated 2026-11-15 (later the same day), version 1.3.1 — **required**:
+older versions can no longer book or chat, and the app will ask you to
+update. Installs over 1.3.0.
+
+- **Pick up asks where.** When you choose Pick up, tap **Use my current
+  location** where your milk will be collected, then type your complete
+  address and a landmark. Only your milk bank sees them, and they are
+  deleted a week after your booking ends.
+- **Drop off: your courier link is your confirmation.** Once the milk bank
+  accepts your booking, book a courier for your appointment and paste its
+  delivery link in Booking Status. Sending it confirms your booking -- you
+  can send it any time before your appointment, and no later than 2 hours
+  after it. A Drop off has no Counseling and Testing visit: once your link
+  is in, you go straight to Breastmilk Collection.
+- **Your collection method is fixed once your booking is confirmed.** A
+  Drop off can still update its courier link if you book a different one.
+
+Previous update (2026-11-15, version 1.3.0): a security and privacy update:
 
 - **A real release build.** Earlier downloads were test builds, which let
   someone with your phone, a USB cable and a computer read what the app had
@@ -244,9 +260,10 @@ after tapping back.
 KalingApp isn't from the Play Store, so Android asks you to allow installs
 from your browser or files app. That is expected.
 
-1. **If KalingApp is already on your phone, uninstall it first** (needed
-   once, for version 1.3.0): press and hold the KalingApp icon and tap
-   **Uninstall**, or go to Settings → Apps → KalingApp → Uninstall.
+1. **If version 1.2.1 or older is on your phone, uninstall it first**
+   (press and hold the KalingApp icon and tap **Uninstall**, or go to
+   Settings → Apps → KalingApp → Uninstall). Version 1.3.0 installs over
+   without uninstalling.
 2. Tap the download link above, then **Download**.
 3. Open the downloaded file. If Android says installs from this source are
    blocked, tap **Settings**, turn on **Allow from this source**, then go back.
@@ -259,20 +276,20 @@ updates install over this one without uninstalling.
 
 | | |
 |---|---|
-| Version | 1.3.0 (versionCode 5) |
+| Version | 1.3.1 (versionCode 6) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 14,818,758 bytes |
-| SHA-256 | `9f7e3015943032765229bde34d919bc820683c12768bfc390361e4690c9154c2` |
+| Size | 14,835,142 bytes |
+| SHA-256 | `441e59fd0ca866e365269492f67869ba1d2794a83d30211262e41634e5ed1394` |
 | Signing | KalingApp release certificate, V2 scheme (SHA-256 `d3ed…8fe2`) |
-| Source commit | `KalingApp-Prototype@108df31` |
+| Source commit | `KalingApp-Prototype@0e5203e` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.3.0.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.3.0.apk SHA256   # Windows
+sha256sum kalingapp-v1.3.1.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.3.1.apk SHA256   # Windows
 ```
 
 ## Notes
