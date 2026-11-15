@@ -1,13 +1,41 @@
 # KalingApp — Mobile App Downloads
 
-Debug builds of the KalingApp mobile application, published here so they can be
-installed on a phone without needing access to the source repository.
+The KalingApp Android app, published here so it can be installed on a phone
+without the Play Store.
 
 ## Download
 
-**[kalingapp-v1.2.1-debug.apk](kalingapp-v1.2.1-debug.apk)** — 20.7 MiB · version 1.2.1
+**[kalingapp-v1.3.0.apk](kalingapp-v1.3.0.apk)** — 14.1 MiB · version 1.3.0
 
-Updated 2026-11-12 (later the same day), version 1.2.1 (rebuilt, same versionCode 4):
+> **Already have KalingApp on your phone? Uninstall it first.**
+> Version 1.3.0 is the first one signed with KalingApp's own release key
+> instead of Android's shared test key, so Android won't install it over an
+> older copy (it says "App not installed"). Nothing is lost: your account,
+> bookings, messages and saved articles are kept online. Uninstall the old
+> app, install this one, and log in again. You only need to do this once.
+
+Updated 2026-11-15, version 1.3.0 — **required**: older versions can no
+longer book or chat, and the app will ask you to update. A security and
+privacy update:
+
+- **A real release build.** Earlier downloads were test builds, which let
+  someone with your phone, a USB cable and a computer read what the app had
+  stored on it, including your sign-in and donor answers. This build can't
+  be read that way, and it is signed with KalingApp's own key, so future
+  updates install over it normally.
+- **Nothing private in phone backups.** Your sign-in and your donor
+  questionnaire answers are no longer copied to Google backups or to a new
+  phone.
+- **Comments show names, never emails.** Only signed-in mothers see article
+  comments. A mother who hasn't set a name shows as "A KalingApp mother",
+  and the app now always recognises your own comments, so you can delete
+  them.
+- **Signed out everywhere after a password change.** Changing or resetting
+  your password signs your account out on every other phone.
+- **Everyone signs in once more.** Because of the change above, every
+  account is signed out once with this update. Just log in again.
+
+Previous update (2026-11-12, later the same day, version 1.2.1, rebuilt):
 donors now choose how their milk reaches the milk bank right after picking
 their appointment date and time. For a drop off, the courier's delivery
 link is asked for only on the appointment day, from the appointment hour,
@@ -211,42 +239,40 @@ Previous update (also 2026-09-29): fixed the Forgot Password screen
 showing "Resetting…" before you'd touched it, and "Sending…" stuck
 after tapping back.
 
-On a phone, tap the link above, then tap **Download**. Open the file when it
-finishes and Android will ask to install it.
-
 ## Installing
 
-This is a debug build signed with Android's standard debug certificate, not a
-Play Store release, so Android will warn you before installing it. That warning
-is expected.
+KalingApp isn't from the Play Store, so Android asks you to allow installs
+from your browser or files app. That is expected.
 
-1. Download the APK using the link above.
-2. Open it. Android will say installs from this source are blocked.
-3. Tap **Settings**, turn on **Allow from this source**, then go back.
-4. Tap **Install**.
+1. **If KalingApp is already on your phone, uninstall it first** (needed
+   once, for version 1.3.0): press and hold the KalingApp icon and tap
+   **Uninstall**, or go to Settings → Apps → KalingApp → Uninstall.
+2. Tap the download link above, then **Download**.
+3. Open the downloaded file. If Android says installs from this source are
+   blocked, tap **Settings**, turn on **Allow from this source**, then go back.
+4. Tap **Install**, open KalingApp, and log in.
 
-If you previously installed a build signed with a different key, uninstall the
-old copy first — Android refuses to replace an app when the signing certificate
-does not match.
+From 1.3.0 on, every version is signed with the same KalingApp key, so later
+updates install over this one without uninstalling.
 
 ## This build
 
 | | |
 |---|---|
-| Version | 1.2.1 (versionCode 4) |
+| Version | 1.3.0 (versionCode 5) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 21,573,517 bytes |
-| SHA-256 | `9b9814c01172fa5c65e06126b606dfb8032e1fc95c5534f1bad94ba7103748d8` |
-| Signing | Debug certificate, V2 scheme (SHA-256 `a2b8…3b5e`) |
-| Source commit | `KalingApp-Prototype@07ba141` |
+| Size | 14,818,758 bytes |
+| SHA-256 | `9f7e3015943032765229bde34d919bc820683c12768bfc390361e4690c9154c2` |
+| Signing | KalingApp release certificate, V2 scheme (SHA-256 `d3ed…8fe2`) |
+| Source commit | `KalingApp-Prototype@108df31` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.2.1-debug.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.2.1-debug.apk SHA256   # Windows
+sha256sum kalingapp-v1.3.0.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.3.0.apk SHA256   # Windows
 ```
 
 ## Notes
