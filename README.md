@@ -5,7 +5,7 @@ without the Play Store.
 
 ## Download
 
-**[kalingapp-v1.3.1.apk](kalingapp-v1.3.1.apk)** — 14.1 MiB · version 1.3.1
+**[kalingapp-v1.3.2.apk](kalingapp-v1.3.2.apk)** — 14.1 MiB · version 1.3.2
 
 > **Have version 1.2.1 or older? Uninstall it first.**
 > Version 1.3.0 was the first one signed with KalingApp's own release key
@@ -13,11 +13,29 @@ without the Play Store.
 > 1.2.1 or older (it says "App not installed"). Nothing is lost: your
 > account, bookings, messages and saved articles are kept online. Uninstall
 > the old app, install this one, and log in again. If you already have
-> 1.3.0, just install this over it -- no uninstalling needed.
+> 1.3.0 or 1.3.1, just install this over it — no uninstalling needed.
 
-Updated 2026-11-15 (later the same day), version 1.3.1 — **required**:
-older versions can no longer book or chat, and the app will ask you to
-update. Installs over 1.3.0.
+Updated 2026-11-16, version 1.3.2 — recommended (1.3.1 keeps working).
+Installs over 1.3.1 and 1.3.0 without uninstalling.
+
+- **Nobody can lock you out of your own phone.** After too many wrong
+  passwords an account is locked for a while. Until now that locked out
+  everyone, you included, even if the wrong passwords were typed by
+  someone else who knew your email. Now a phone you have already signed
+  in on still lets you in; only other phones are locked out.
+- **Signing out also signs you out on our server,** so your sign-in can't
+  be used again afterwards, even by someone who copied it.
+- **Stronger passwords.** When you sign up or reset your password, very
+  common passwords (like "password" or "12345678"), passwords made
+  only of numbers, and passwords that look like your email are no longer
+  accepted. Your current password keeps working.
+- **Privacy notice:** it now says that your messages to Kali are sent to
+  Google's Gemini AI service so it can write Kali's replies.
+- Small text fixes.
+
+Previous update (2026-11-15, later the same day, version 1.3.1) —
+**required**: older versions can no longer book or chat, and the app will
+ask you to update. Installs over 1.3.0.
 
 - **Pick up asks where.** When you choose Pick up, tap **Use my current
   location** where your milk will be collected, then type your complete
@@ -25,7 +43,7 @@ update. Installs over 1.3.0.
   deleted a week after your booking ends.
 - **Drop off: your courier link is your confirmation.** Once the milk bank
   accepts your booking, book a courier for your appointment and paste its
-  delivery link in Booking Status. Sending it confirms your booking -- you
+  delivery link in Booking Status. Sending it confirms your booking — you
   can send it any time before your appointment, and no later than 2 hours
   after it. A Drop off has no Counseling and Testing visit: once your link
   is in, you go straight to Breastmilk Collection.
@@ -55,7 +73,7 @@ Previous update (2026-11-12, later the same day, version 1.2.1, rebuilt):
 donors now choose how their milk reaches the milk bank right after picking
 their appointment date and time. For a drop off, the courier's delivery
 link is asked for only on the appointment day, from the appointment hour,
-in Booking Status -- and a notification tells you each step, plus a
+in Booking Status — and a notification tells you each step, plus a
 reminder at that hour. The Notifications page header no longer fills the
 screen in Tagalog. Same signing certificate; install this file manually
 over the previous 1.2.1 build.
@@ -229,7 +247,7 @@ detached line. Same signing certificate as the previous build.
 
 Previous update (2026-09-30, fix): the previous fix wired the questionnaire
 pre-fill into the wrong entry point. "Submit a New Request" on a
-declined booking was skipping the questionnaire screen entirely --
+declined booking was skipping the questionnaire screen entirely —
 resubmitting created a new request with no questionnaire attached at
 all, not just a blank one. Fixed for real this time: resubmitting a
 donor request now goes back through the (pre-filled) questionnaire
@@ -237,7 +255,7 @@ screen before scheduling. Same signing certificate as the previous
 build, so installing over it works without uninstalling first.
 
 Previous update (2026-09-30): resubmitting a donor request after a
-decline no longer forces a blank questionnaire -- her last answers are
+decline no longer forces a blank questionnaire — her last answers are
 pre-filled, with a notice to review them (and re-attach her serology
 photo) before submitting.
 
@@ -262,8 +280,8 @@ from your browser or files app. That is expected.
 
 1. **If version 1.2.1 or older is on your phone, uninstall it first**
    (press and hold the KalingApp icon and tap **Uninstall**, or go to
-   Settings → Apps → KalingApp → Uninstall). Version 1.3.0 installs over
-   without uninstalling.
+   Settings → Apps → KalingApp → Uninstall). Versions 1.3.0 and 1.3.1
+   install over without uninstalling.
 2. Tap the download link above, then **Download**.
 3. Open the downloaded file. If Android says installs from this source are
    blocked, tap **Settings**, turn on **Allow from this source**, then go back.
@@ -276,20 +294,20 @@ updates install over this one without uninstalling.
 
 | | |
 |---|---|
-| Version | 1.3.1 (versionCode 6) |
+| Version | 1.3.2 (versionCode 7) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
 | Size | 14,835,142 bytes |
-| SHA-256 | `441e59fd0ca866e365269492f67869ba1d2794a83d30211262e41634e5ed1394` |
+| SHA-256 | `dd0bf0c89c5933dcbb8a3c9fd7be68a36d6a1ae2a553e5ee7f95a3b5025556e1` |
 | Signing | KalingApp release certificate, V2 scheme (SHA-256 `d3ed…8fe2`) |
-| Source commit | `KalingApp-Prototype@0e5203e` |
+| Source commit | `KalingApp-Prototype@56bf4b8` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.3.1.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.3.1.apk SHA256   # Windows
+sha256sum kalingapp-v1.3.2.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.3.2.apk SHA256   # Windows
 ```
 
 ## Notes
