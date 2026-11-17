@@ -5,7 +5,7 @@ without the Play Store.
 
 ## Download
 
-**[kalingapp-v1.3.2.apk](kalingapp-v1.3.2.apk)** — 14.1 MiB · version 1.3.2
+**[kalingapp-v1.3.3.apk](kalingapp-v1.3.3.apk)** — 14.2 MiB · version 1.3.3
 
 > **Have version 1.2.1 or older? Uninstall it first.**
 > Version 1.3.0 was the first one signed with KalingApp's own release key
@@ -13,10 +13,37 @@ without the Play Store.
 > 1.2.1 or older (it says "App not installed"). Nothing is lost: your
 > account, bookings, messages and saved articles are kept online. Uninstall
 > the old app, install this one, and log in again. If you already have
-> 1.3.0 or 1.3.1, just install this over it — no uninstalling needed.
+> 1.3.0, 1.3.1 or 1.3.2, just install this over it — no uninstalling needed.
 
-Updated 2026-11-16, version 1.3.2 — recommended (1.3.1 keeps working).
-Installs over 1.3.1 and 1.3.0 without uninstalling.
+Updated 2026-11-18, version 1.3.3 — recommended (1.3.2 and 1.3.1 keep
+working). Installs over 1.3.2, 1.3.1 and 1.3.0 without uninstalling.
+
+- **Cancel a booking yourself.** In Booking Status, tap **Cancel this
+  booking**. You can cancel while your booking is still open, except a
+  donation whose milk the milk bank has already collected. The milk bank
+  is told, and you can make a new booking afterwards.
+- **Holidays are greyed out** when you pick a date, like weekends and the
+  days your milk bank is closed or full.
+- **Your real deadline.** Booking Status shows the exact day and time by
+  which to confirm your attendance (never later than the appointment
+  itself), or to answer a new date the milk bank proposes (8 working
+  hours). A booking that has expired no longer shows "Confirm My
+  Attendance".
+- **When your milk bank closes on your appointment day,** Booking Status
+  tells you, and the milk bank proposes a new date there. You can also
+  cancel.
+- **A confirmed appointment can be moved.** If your milk bank can't keep
+  it (for example, no doctor that day), it proposes a new date in Booking
+  Status: accept it, or choose another time.
+- **Screening answers that didn't arrive.** If your health screening
+  answers didn't reach the milk bank, Booking Status says so: tap **Send
+  my answers** to send them again. Answers that failed to send are kept on
+  your phone, so you don't have to answer twice.
+- Choosing another time after the milk bank proposed a date now always
+  shows your own milk bank's calendar.
+- Everything new is in Tagalog too.
+
+Previous update (2026-11-16, version 1.3.2):
 
 - **Nobody can lock you out of your own phone.** After too many wrong
   passwords an account is locked for a while. Until now that locked out
