@@ -15,6 +15,13 @@ without the Play Store.
 > the old app, install this one, and log in again. If you already have
 > 1.3.0, 1.3.1 or 1.3.2, just install this over it — no uninstalling needed.
 
+**Since 2026-11-19, every donation has Counseling and Testing, a Drop off
+too** (no app update needed). After you send your courier link, your
+booking goes to Counseling and Testing (a short counseling session, a
+physical check and blood tests at the milk bank), then to Breastmilk
+Collection. A Drop off whose milk hasn't been collected yet goes back to
+Counseling and Testing, and Notifications tells you.
+
 Updated 2026-11-18, version 1.3.3 — recommended (1.3.2 and 1.3.1 keep
 working). Installs over 1.3.2, 1.3.1 and 1.3.0 without uninstalling.
 
@@ -72,8 +79,8 @@ ask you to update. Installs over 1.3.0.
   accepts your booking, book a courier for your appointment and paste its
   delivery link in Booking Status. Sending it confirms your booking — you
   can send it any time before your appointment, and no later than 2 hours
-  after it. A Drop off has no Counseling and Testing visit: once your link
-  is in, you go straight to Breastmilk Collection.
+  after it. (Until 2026-11-19 a Drop off then skipped Counseling and
+  Testing; it no longer does.)
 - **Your collection method is fixed once your booking is confirmed.** A
   Drop off can still update its courier link if you book a different one.
 
