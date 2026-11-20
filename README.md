@@ -5,7 +5,7 @@ without the Play Store.
 
 ## Download
 
-**[kalingapp-v1.3.3.apk](kalingapp-v1.3.3.apk)** — 14.2 MiB · version 1.3.3
+**[kalingapp-v1.3.4.apk](kalingapp-v1.3.4.apk)** — 14.2 MiB · version 1.3.4
 
 > **Have version 1.2.1 or older? Uninstall it first.**
 > Version 1.3.0 was the first one signed with KalingApp's own release key
@@ -13,7 +13,23 @@ without the Play Store.
 > 1.2.1 or older (it says "App not installed"). Nothing is lost: your
 > account, bookings, messages and saved articles are kept online. Uninstall
 > the old app, install this one, and log in again. If you already have
-> 1.3.0, 1.3.1 or 1.3.2, just install this over it — no uninstalling needed.
+> 1.3.0 or newer, just install this over it — no uninstalling needed.
+
+Updated 2026-11-20, version 1.3.4 — recommended (1.3.3, 1.3.2 and 1.3.1
+keep working). Installs over 1.3.3, 1.3.2, 1.3.1 and 1.3.0 without
+uninstalling.
+
+- **Tablets get the whole screen.** The moving background, the gold curves
+  and the pink waves now fill a tablet's screen instead of a phone-wide
+  strip down the middle. What you read and tap stays centred.
+- **Nothing is cut off on a small phone or a phone turned sideways.** The
+  welcome screen sizes its logo so both buttons are always on screen, and
+  puts the logo beside them when the phone is sideways. In the first-time
+  introduction, **Next** stays on screen and the card scrolls instead.
+- **Date pickers and longer messages scroll** when the screen is too short,
+  so **Confirm Date** and the other buttons can always be reached.
+- Also new, no app update needed: the emails with your sign-up or password
+  reset code show the code large, in its own box, and say how long it lasts.
 
 **Since 2026-11-19, every donation has Counseling and Testing, a Drop off
 too** (no app update needed). After you send your courier link, your
@@ -22,8 +38,7 @@ physical check and blood tests at the milk bank), then to Breastmilk
 Collection. A Drop off whose milk hasn't been collected yet goes back to
 Counseling and Testing, and Notifications tells you.
 
-Updated 2026-11-18, version 1.3.3 — recommended (1.3.2 and 1.3.1 keep
-working). Installs over 1.3.2, 1.3.1 and 1.3.0 without uninstalling.
+Previous update (2026-11-18, version 1.3.3):
 
 - **Cancel a booking yourself.** In Booking Status, tap **Cancel this
   booking**. You can cancel while your booking is still open, except a
@@ -314,8 +329,8 @@ from your browser or files app. That is expected.
 
 1. **If version 1.2.1 or older is on your phone, uninstall it first**
    (press and hold the KalingApp icon and tap **Uninstall**, or go to
-   Settings → Apps → KalingApp → Uninstall). Versions 1.3.0 and 1.3.1
-   install over without uninstalling.
+   Settings → Apps → KalingApp → Uninstall). Version 1.3.0 or newer
+   installs over without uninstalling.
 2. Tap the download link above, then **Download**.
 3. Open the downloaded file. If Android says installs from this source are
    blocked, tap **Settings**, turn on **Allow from this source**, then go back.
@@ -328,20 +343,20 @@ updates install over this one without uninstalling.
 
 | | |
 |---|---|
-| Version | 1.3.2 (versionCode 7) |
+| Version | 1.3.4 (versionCode 9) |
 | Package | `com.aistudio.kalingapp.hsmqwr` |
 | Requires | Android 7.0 (API 24) or newer |
 | Built against | Android API 36 |
-| Size | 14,835,142 bytes |
-| SHA-256 | `dd0bf0c89c5933dcbb8a3c9fd7be68a36d6a1ae2a553e5ee7f95a3b5025556e1` |
+| Size | 14,851,526 bytes |
+| SHA-256 | `ed06db354391f76a497505849a96755e7c26a5c93237297c1a280b24859523b9` |
 | Signing | KalingApp release certificate, V2 scheme (SHA-256 `d3ed…8fe2`) |
-| Source commit | `KalingApp-Prototype@56bf4b8` |
+| Source commit | `KalingApp-Prototype@003f51b` |
 
 To confirm the file downloaded intact, compare the SHA-256:
 
 ```bash
-sha256sum kalingapp-v1.3.2.apk        # Linux / macOS / Git Bash
-certutil -hashfile kalingapp-v1.3.2.apk SHA256   # Windows
+sha256sum kalingapp-v1.3.4.apk        # Linux / macOS / Git Bash
+certutil -hashfile kalingapp-v1.3.4.apk SHA256   # Windows
 ```
 
 ## Notes
